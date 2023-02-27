@@ -1,55 +1,96 @@
-wrapper{background-color:fuchsia;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{background-color:rgb(0, 0, 0) ;
-border: 2px solid black;
-padding-left: 5px;
-padding-top: 5px;
-padding-bottom: 25px;
-margin: 15px;
-text-align: center;
-color: gold
-;
-font-weight:900;}
-
-
-nav{background-color: rgb(255, 255, 255);
-font: bolder;
-padding-bottom: 15px;
-border-radius: 1px solid black;
-color: black;
+header {
+  background-color: rgb(140, 83, 255);
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
-a{text-decoration: none;
-font-size: 1.5rem;
-background-color: darkorchid;}
-
-a:link{
-    color: blue;}
-
-a:hover{color: crimson;}
-
-main{background-color:rgb(0, 0, 0);
-color: gold;}
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 
-body {background-color:rgb(255, 242, 0);
-font: italic;
-font-size: larger;}
+nav {
+  background-color: #d8d8d8;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
 
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: rgb(140, 83, 255);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+  color: rgb(140, 83, 255);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
 
 table {
-    border-collapse: collapse;
-    width: 100%;
-    border-color: rgb(255, 0, 0);
-    color: red;
-    
-  }
-  
-  th, td {
-    text-align: center;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {background-color:black;}
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+thead {
+  font-size: large;
+  font: bold;
+
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid rgb(140, 83, 255);
+}
+
+th {
+  background-color: rgb(140, 83, 255);
+  color: white;
+  font:900;
+}
+
+footer {
+  background-color: rgb(209, 187, 252);
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
